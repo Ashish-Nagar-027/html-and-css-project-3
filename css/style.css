@@ -120,12 +120,25 @@ header {
  }
  .left-arrow {
      width: 10vw;
-     background-color: #998935;
+     background-color: #433f29;
+     display: flex;
+     align-items: center;
+     justify-content:center;
 }
-.right-arrow {
+.left-arrow svg{
+     border: 2px solid rgb(153, 137, 53);
+     border-radius: 50%;
+}
+ .right-arrow {
      width: 10vw;
-     background-color: #39372D;
-     color: white;
-     z-index: 2;
- }
+     background-color: rgb(153, 137, 53);
+     display: flex;
+     align-items: center;
+     justify-content:center;
+}
+.right-arrow svg{
+     border: 2px solid white;
+     border-radius: 50%;
+}
+
 
